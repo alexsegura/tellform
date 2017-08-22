@@ -59,7 +59,7 @@ COPY ./public /opt/tellform/public
 COPY ./config /opt/tellform/config
 COPY ./gruntfile.js /opt/tellform/gruntfile.js
 COPY ./server.js /opt/tellform/server.js
-COPY ./.env /opt/tellform/.env
+# COPY ./.env /opt/tellform/.env
 COPY ./scripts/create_admin.js /opt/tellform/scripts/create_admin.js
 
 # Run TellForm server
